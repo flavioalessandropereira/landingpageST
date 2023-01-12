@@ -2,14 +2,24 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*bloquear a barra em x */
+html,body{
+    height: 100%;
+    overflow-y: hidden;
 }
 
 .center{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
+    flex-wrap: 1180px;
     margin: 0 auto;
     padding: 0 2% ;
+}
+
+header{
+    padding: 10px 0;
 }
 
 /* Elemento de classe "logo" posicionamento */
@@ -20,5 +30,21 @@
 /* Elemento de classe "logo" com tag "img" definido o tamanho da imagem */
 .logo img{
     float: left;
-    width: 150px;
+    width: 120px;
+    margin-left: 1%;
+}
+
+.menu{
+    padding-top: 40px;
+    width: 40%;
+    text-align: right;
+    
+    
+}
+
+.menu a{
+    color: rgb(13, 79, 13);
+    text-decoration: nome;
+    font-weight: bold;
+    margin-right: 15px;
 }
