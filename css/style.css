@@ -50,7 +50,7 @@ section{
 
 section:nth-of-type(1){
 
-    height: 130px;
+    height: 135px;
     background-size: cover;
     background-color: rgb(109, 139, 109);
 
@@ -58,7 +58,7 @@ section:nth-of-type(1){
 
 section:nth-of-type(2){
     background-image: url(/images/image1.jpg);
-    height: 600px;
+    height: 500px;
     background-size: cover;
 
 }
